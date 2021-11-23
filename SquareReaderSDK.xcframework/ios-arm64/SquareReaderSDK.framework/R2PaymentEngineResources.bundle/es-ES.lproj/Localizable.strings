@@ -1,0 +1,255 @@
+/* The subtitle string displayed when the reader responds with a .appBackgrounded message. */
+"R2PaymentEngineAppBackgroundedSubtitle" = "Se ha cancelado esta transacción.";
+
+/* The title string displayed when the reader responds with a .appBackgrounded message. */
+"R2PaymentEngineAppBackgroundedTitle" = "Pago no completado";
+
+/* The title string displayed when a payment has been approved. */
+"R2PaymentEngineApprovedTitle" = "Aprobado";
+
+/* The title or subtitle string displayed when a swipe is being authorized with the server */
+"R2PaymentEngineAuthorizing" = "Autorizando";
+
+/* The subtitle string displayed when the server response with a call issuer error. */
+"R2PaymentEngineCallIssuerSubtitle" = "Antes de intentar de nuevo esta transacción, solicita al titular de la tarjeta que contacte con el emisor de la tarjeta para obtener más información sobre el pago rechazado. ";
+
+/* American Express Card Brand. */
+"R2PaymentEngineCardBrandAmericanExpress" = "American Express";
+
+/* The format string for the localized Card Brand and lastFour digits of the card. The first token is the card brand, and the second token is the last four digits of the card. */
+"R2PaymentEngineCardBrandAndLastFourFormatString" = "%1$@ %2$@";
+
+/* China UnionPay Card Brand. */
+"R2PaymentEngineCardBrandChinaUnionPay" = "China UnionPay";
+
+/* Diners Club Card Brand. */
+"R2PaymentEngineCardBrandDinersClub" = "Diners Club";
+
+/* Discover Card Brand. */
+"R2PaymentEngineCardBrandDiscover" = "Discover";
+
+/* String displayed for ebt. */
+"R2PaymentEngineCardBrandEBT" = "EBT";
+
+/* String displayed for eftpos. */
+"R2PaymentEngineCardBrandEFT" = "EFT";
+
+/* String displayed for felica. */
+"R2PaymentEngineCardBrandFelica" = "Felica";
+
+/* String displayed for interac card. */
+"R2PaymentEngineCardBrandInterac" = "Interac";
+
+/* JCB Card Brand. */
+"R2PaymentEngineCardBrandJCB" = "JCB";
+
+/* MasterCard Card Brand. */
+"R2PaymentEngineCardBrandMasterCard" = "MasterCard";
+
+/* String displayed for other/unknown Card Brand. */
+"R2PaymentEngineCardBrandOther" = "Crédito";
+
+/* String displayed for Square Capital Gift Card. */
+"R2PaymentEngineCardBrandSquareCapitalGiftCard" = "Tarjeta regalo de Capital Square";
+
+/* Square Gift Card. */
+"R2PaymentEngineCardBrandSquareGiftCard" = "Tarjeta regalo";
+
+/* Visa Card Brand. */
+"R2PaymentEngineCardBrandVisa" = "Visa";
+
+/* The subtitle string displayed when the server response with a card expired error. */
+"R2PaymentEngineCardExpiredSubtitle" = "La tarjeta ha vencido. Usa otra tarjeta.";
+
+/* The subtitle string displayed when an unsupported card brand is tapped or dipped. */
+"R2PaymentEngineCardNotSupportedSubtitle" = "Prueba con otra tarjeta.";
+
+/* The title string displayed when an unsupported card brand is tapped or dipped. */
+"R2PaymentEngineCardNotSupportedTitle" = "Tarjeta no admitida";
+
+/* The subtitle string displayed when the reader responds with a .readerRemoved message. */
+"R2PaymentEngineCardReaderRemovedSubtitle" = "Se ha cancelado esta transacción.";
+
+/* The title string displayed when the reader responds with a .readerRemoved message. */
+"R2PaymentEngineCardReaderRemovedTitle" = "Lector desconectado";
+
+/* The subtitle string displayed when a chip card is removed before it can be read. */
+"R2PaymentEngineCardRemovedSubtitle" = "Introducir la tarjeta para continuar";
+
+/* The title string displayed when a chip card is removed before it can be read. */
+"R2PaymentEngineCardRemovedTitle" = "Se ha eliminado la tarjeta";
+
+/* The title string displayed when a cash or external payment is approved. */
+"R2PaymentEngineCashOrExternalPaymentApprovedTitle" = "Pago registrado";
+
+/* The subtitle string displayed when a dipped card cannot be read. */
+"R2PaymentEngineChipCouldNotBeReadSubtitle" = "No se ha podido leer el chip.";
+
+/* The subtitle string displayed when the reader responds with a .contactlessLimitExceededInsertCard message. */
+"R2PaymentEngineContactlessLimitExceededInsertCardSubtitle" = "Se ha producido un error con esta tarjeta. Vuelve a intentarlo o utiliza otra tarjeta.";
+
+/* The title string displayed when the reader responds with a .contactlessLimitExceededInsertCard message. */
+"R2PaymentEngineContactlessLimitExceededInsertCardTitle" = "Insertar tarjeta";
+
+/* The subtitle string displayed when the reader responds with a .contactlessLimitExceededTryAnotherCard message. */
+"R2PaymentEngineContactlessLimitExceededTryAnotherCardSubtitle" = "Hubo un problema con esta tarjeta. Vuelve a intentarlo o usa otra tarjeta. ";
+
+/* The title string displayed when the reader responds with a .contactlessLimitExceededTryAnotherCard message. */
+"R2PaymentEngineContactlessLimitExceededTryAnotherCardTitle" = "Prueba con otra tarjeta";
+
+/* A subtitle string displayed when a payment has been declined by the smart card. */
+"R2PaymentEngineDeclinedByCardSubtitle" = "No se puede procesar la transacción.";
+
+/* The title string displayed when a payment has been declined. */
+"R2PaymentEngineDeclinedTitle" = "Rechazado";
+
+/* A subtitle string displayed when a dip payment has been declined by the smart card. */
+"R2PaymentEngineDipDeclinedByCardSubtitle" = "No se puede procesar la transacción.";
+
+/* The title string displayed when a card has been inserted and is being read */
+"R2PaymentEngineDoNotRemoveCardTitle" = "No retires la tarjeta";
+
+/* A generic subtitle string displayed when a payment has been declined and no more detailed information is available. */
+"R2PaymentEngineGenericDeclineSubtitle" = "Utiliza otra tarjeta.";
+
+/* The format string for the subtitle displayed when the server response with a gift card insufficient balance error. The argument is the current balance amount (e.g. '$5.00'). */
+"R2PaymentEngineGiftCardInsufficientBalanceWithAmountSubtitle" = "El saldo de la tarjeta regalo no cubre el importe total de la venta. El saldo actual es de %1$@.";
+
+/* The subtitle string displayed when the server response with a gift card insufficient balance error. */
+"R2PaymentEngineGiftCardInsufficientBalanceWithoutAmountSubtitle" = "El saldo en la tarjeta regalo no cubre el importe total de la venta.";
+
+/* The subtitle string displayed when a swiped card must be inserted. */
+"R2PaymentEngineInsertCardSubtitle" = "Se debe insertar la tarjeta con chip.";
+
+/* The title string displayed when a swipe payment has been approved. */
+"R2PaymentEngineInsertCardTitle" = "Inserta la tarjeta";
+
+/* The subtitle string displayed when the reader issues a 'Try Again' cancel message. */
+"R2PaymentEngineInsertOrTryAnotherCardSubtitle" = "Se ha producido un error con esta tarjeta. Vuelve a intentarlo o usa otra.";
+
+/* The title string displayed when the reader issues a 'Try Again' cancel message. */
+"R2PaymentEngineInsertOrTryAnotherCardTitle" = "Inserta o prueba con otra tarjeta";
+
+/* The subtitle string displayed when the server response with an invalid card data error. */
+"R2PaymentEngineInvalidCardDataSubtitle" = "Verifica el número de tarjeta, la fecha de vencimiento y el código de seguridad o CVV.";
+
+/* The subtitle string displayed when the server response with an invalid fees error. */
+"R2PaymentEngineInvalidFeesSubtitle" = "Hay tarifas no válidas en este pago.";
+
+/* The subtitle string displayed when the server response with an invalid lcation error. */
+"R2PaymentEngineInvalidLocationSubtitle" = "Pago no aprobado. Punto de venta no válido.";
+
+/* The subtitle string displayed when the server response with an invalid PIN error. */
+"R2PaymentEngineInvalidPinSubtitle" = "El PIN no es correcto. Inténtalo de nuevo o solicita otra forma de pago. ";
+
+/* The subtitle string displayed when the server response with an invalid postcode error. */
+"R2PaymentEngineInvalidZipCodeSubtitle" = "Comprueba el código postal de facturación.";
+
+/* The subtitle string displayed when the server response with a manually entered payment not supported error. */
+"R2PaymentEngineManuallyEnteredPaymentNotSupportedSubtitle" = "No es posible ingresar pagos manualmente con esta tarjeta. Usa un lector Square Reader o inténtalo con otra tarjeta.";
+
+/* The subtitle string displayed when the reader responds with a .requestCardRemoval message. */
+"R2PaymentEngineNeedsCardRemovalSubtitle" = "Retira la tarjeta y vuelve a intentarlo.";
+
+/* The title string displayed when the reader responds with a .requestCardRemoval message. */
+"R2PaymentEngineNeedsCardRemovalTitle" = "Retirar la tarjeta con chip";
+
+/* The title of the button to retry a network request. */
+"R2PaymentEngineNetworkUnreachablePrimaryActionTitle" = "Reintentar pago";
+
+/* The subtitle string displayed when there's a failure to connect to the server. */
+"R2PaymentEngineNetworkUnreachableSubtitle" = "Imposible conectarse a Internet.";
+
+/* The title string displayed when there's a failure to connect to the server. */
+"R2PaymentEngineNetworkUnreachableTitle" = "Error de conexión";
+
+/* The subtitle string displayed when the server response with a payment limit exceeded error. */
+"R2PaymentEnginePaymentLimitExceededSubtitle" = "Se ha excedido el límite de transacciones de la Cuenta de Square. Solicita otro método de pago, como efectivo o cheque.";
+
+/* The subtitle string displayed when a card has been inserted and is being read */
+"R2PaymentEnginePreparingPaymentSubtitle" = "Preparando pago";
+
+/* The subtitle string displayed when the reader responds with a .presentContactlessAgainDueToError event. */
+"R2PaymentEnginePresentContactlessAgainDueToErrorSubtitle" = "No se pudo leer la tarjeta.";
+
+/* The title string displayed when the reader responds with a .presentContactlessAgainDueToError event. */
+"R2PaymentEnginePresentContactlessAgainDueToErrorTitle" = "Volver a acercar";
+
+/* The subtitle string displayed when the reader responds with a .presentOnlyOneContactlessCard event. */
+"R2PaymentEnginePresentOnlyOneContactlessCardSubtitle" = "Se han detectado más de una tarjeta dentro del alcance.\t";
+
+/* The title string displayed when the reader responds with a .presentOnlyOneContactlessCard event. */
+"R2PaymentEnginePresentOnlyOneContactlessCardTitle" = "Acerca solo una tarjeta";
+
+/* The title string displayed when payment has been approved by the server and is being processed by the reader. */
+"R2PaymentEngineProcessingTitle" = "Procesando";
+
+/* The title string displayed when a non-card payment is being recorded by the server */
+"R2PaymentEngineRecording" = "Registrando pago";
+
+/* The title string displayed when a card has been read and may be removed */
+"R2PaymentEngineRemoveCardTitle" = "Retirar tarjeta";
+
+/* The title string displayed when the reader responds with a .requestCardReinsertion event. */
+"R2PaymentEngineRequestCardReinsertionTitle" = "Vuelve a insertar la tarjeta";
+
+/* The title string displayed when the reader responds with a .requestCardSwipe message for technical reasons. */
+"R2PaymentEngineRequestCardSwipeSchemeSubtitle" = "Por el momento, Square no es compatible con esta tarjeta con chip.";
+
+/* The title string displayed when the reader responds with a .requestCardSwipe message for technical reasons. */
+"R2PaymentEngineRequestCardSwipeTechnicalSubtitle" = "No se pudo leer el chip.";
+
+/* The title string displayed when the reader responds with a .requestCardSwipe message. */
+"R2PaymentEngineRequestCardSwipeTitle" = "Desliza la tarjeta";
+
+/* The subtitle string displayed when the reader responds with a .requestContactlessPresentationFromInsertion message. */
+"R2PaymentEngineRequestContactlessPresentationFromInsertionSubtitle" = "Vuelve al proceso de pago para acercar la tarjeta si es compatible con los pagos sin contacto o prueba otro método de pago.";
+
+/* The title string displayed when the reader responds with a .requestContactlessPresentationFromInsertion message. */
+"R2PaymentEngineRequestContactlessPresentationFromInsertionTitle" = "Cancelar el pago y acercar la tarjeta";
+
+/* The subtitle string displayed when the reader responds with a .seePhoneForContactlessInstructions event. */
+"R2PaymentEngineSeePhoneForInstructionsSubtitle" = "Se requiere una acción en el dispositivo de pago. ";
+
+/* The title string displayed when the reader responds with a .seePhoneForContactlessInstructions event. */
+"R2PaymentEngineSeePhoneForInstructionsTitle" = "Consulta el teléfono para ver las instrucciones";
+
+/* The title string displayed to select an account or application */
+"R2PaymentEngineSelectAccount" = "Seleccionar cuenta";
+
+/* The subtitle string displayed when a card swipe fails. */
+"R2PaymentEngineSwipeFailedSubtitle" = "Desliza la tarjeta directamente";
+
+/* The title string displayed when a card swipe fails. */
+"R2PaymentEngineSwipeFailedTitle" = "No se ha realizado el cargo en la tarjeta";
+
+/* A subtitle string displayed when a tap payment has been declined by the smart card. */
+"R2PaymentEngineTapDeclinedByCardSubtitle" = "No se puede procesar la transacción. Solicita al cliente que revise su teléfono o se comunique con el emisor de la tarjeta.";
+
+/* The subtitle string displayed when a payment times out. */
+"R2PaymentEngineTimeoutErrorSubtitle" = "Por seguridad, se ha agotado el tiempo de espera de este pago debido a inactividad.";
+
+/* The title string displayed when a payment times out. */
+"R2PaymentEngineTimeoutErrorTitle" = "Tiempo de espera de pago agotado";
+
+/* The subtitle string displayed when a payment fails for an unknown reason. */
+"R2PaymentEngineUnexpectedErrorSubtitle" = "Square ha encontrado un error inesperado. Vuelve a intentarlo o ponte en contacto con el Centro de Ayuda si el problema persiste.";
+
+/* The title string displayed when a payment fails for an unknown reason. */
+"R2PaymentEngineUnexpectedErrorTitle" = "Error de pago";
+
+/* The subtitle string displayed when the reader responds with an .unlockPhoneToPay event. */
+"R2PaymentEngineUnlockPhoneToPaySubtitle" = "Desbloquea el dispositivo de pago e inténtalo de nuevo.";
+
+/* The title string displayed when the reader responds with an .unlockPhoneToPay event. */
+"R2PaymentEngineUnlockPhoneToPayTitle" = "Desbloquea el teléfono para pagar";
+
+/* The subtitle string displayed when an unexpected error occurs. */
+"R2PaymentEngineUnrecoverableErrorSubtitle" = "Inténtalo de nuevo más tarde.";
+
+/* The title string displayed when an unexpected error occurs. */
+"R2PaymentEngineUnrecoverableErrorTitle" = "Error inesperado";
+
+/* The title of the button used to cancel the payment. */
+"R2PaymentFlowUICancelButtonTitle" = "Cancelar pago";
+
